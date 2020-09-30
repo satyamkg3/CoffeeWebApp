@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    
+    <servlet>
+        <servlet-name>showAllCoffee</servlet-name>
+        <servlet-class>com.satyam.controller.ShowAllCoffee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showAllCoffee</servlet-name>
+        <url-pattern>/showCoffee</url-pattern>
+    </servlet-mapping>
+<welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+    <servlet>
+        <servlet-name>showAllAddOns</servlet-name>
+        <servlet-class>com.satyam.controller.ShowAddOns</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showAllAddOns</servlet-name>
+        <url-pattern>/showAddOns</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showCoupons</servlet-name>
+        <servlet-class>com.satyam.controller.ShowCoupons</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showCoupons</servlet-name>
+        <url-pattern>/showCoupons</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showSize</servlet-name>
+        <servlet-class>com.satyam.controller.ShowSize</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showSize</servlet-name>
+        <url-pattern>/showSize</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>takeOrder</servlet-name>
+        <servlet-class>com.satyam.controller.TakeOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>takeOrder</servlet-name>
+        <url-pattern>/takeOrder</url-pattern>
+    </servlet-mapping>
+
+</web-app>

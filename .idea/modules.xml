@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Hibernate/CoffeeAppHiber/CoffeeAppHiber.iml" filepath="$PROJECT_DIR$/../Hibernate/CoffeeAppHiber/CoffeeAppHiber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoffeeWebApp.iml" filepath="$PROJECT_DIR$/CoffeeWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FirstHibernte/FirstHibernte.iml" filepath="$PROJECT_DIR$/../FirstHibernte/FirstHibernte.iml" />
+    </modules>
+  </component>
+</project>
